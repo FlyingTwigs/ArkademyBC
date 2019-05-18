@@ -1,4 +1,4 @@
-Apa itu REST API?
+**Apa itu REST API?**
 
 REST API adalah sebuah instrumen fungsi yang berfungsi sebagai standar arsitektur berbasis web yang digunakan protokol HTTP untuk berkomunikasi data.
 
