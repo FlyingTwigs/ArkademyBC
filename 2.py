@@ -1,17 +1,15 @@
 import random
 import string
-import numpy as np
-
 
 array = []
 lettersAndDigits = string.ascii_letters + string.digits
 
-def randomUniqueStringDigits(stringLength=32):
-    """Generate a random string of letters and digits """
-    return ''.join(random.sample(lettersAndDigits, stringLength))
+def generateString(number_generated):
+    for i in range(number_generated):
+        art = ""
+        stringLength=32
+        art += ''.join(random.sample(lettersAndDigits,stringLength))
+        array.append(art)
+    return array
 
-r = int(input())
-for i in range(r):
-    array = np.append(array, randomUniqueStringDigits(32))
-
-print(array)
+print(generateString(3))
