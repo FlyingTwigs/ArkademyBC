@@ -23,4 +23,4 @@ def uniqueCharacter():
 
 
 generateString(3)
-print(uniqueCharacter)
+print(uniqueCharacter())
